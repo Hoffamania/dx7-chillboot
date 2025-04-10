@@ -32,11 +32,24 @@
       border-radius: 8px;
       cursor: pointer;
     }
+      .svg-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media (max-width: 600px) {
+      .svg-container {
+        padding: 0 10px;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <object id="dx7svg" type="image/svg+xml" data="dx7_patch_loader_looped_final.svg" width="600" height="600"></object>
+  <div class="svg-container">
+  <object id="dx7svg" type="image/svg+xml" data="dx7_patch_loader_looped_final.svg" style="width: 100%; max-width: 600px; height: auto;"></object>
+</div>
 
   <audio id="dx7audio" loop>
     <source src="loop1_clean_loopable_slowed_30_percent.mp3" type="audio/mpeg">
