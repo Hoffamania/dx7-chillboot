@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +18,25 @@
       margin: 0;
       padding: 20px;
     }
-    object {
-      border: 2px solid #333;
-      box-shadow: 0 0 20px #ff69b4;
-      margin-bottom: 20px;
+
+    .svg-container {
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 20px;
     }
+
+    .svg-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
     audio {
       display: none;
     }
+
     button {
       margin-top: 10px;
       background-color: #222;
@@ -37,10 +49,12 @@
       cursor: pointer;
       box-shadow: 0 0 10px #ff69b4;
     }
+
     button:hover {
       background-color: #ff69b4;
       color: #000010;
     }
+
     h1 {
       font-size: 1.5rem;
       color: #ff69b4;
@@ -49,6 +63,7 @@
       text-align: center;
       word-wrap: break-word;
     }
+
     p {
       color: #bbb;
       font-size: 0.9rem;
@@ -58,15 +73,19 @@
   </style>
 </head>
 <body>
- <h1>[ Hoffaha DX7 Chill Vibe Loader Control Plane v1.3.2 ]</h1>
-  <object type="image/svg+xml" data="dx7_patch_loader_looped_final.svg" width="600" height="600">
-    Your browser does not support SVG.
-  </object>
+  <h1>[ Hoffaha DX7 Chill Vibe Loader Control Plane v1.3.2 ]</h1>
+
+  <div class="svg-container">
+    <img src="dx7_patch_loader_looped_final.svg" alt="DX7 bootloader animation">
+  </div>
+
   <audio id="dx7audio" loop>
     <source src="loop1_clean_loopable_slowed_30_percent.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
+
   <button onclick="toggleAudio()">🎛️ Toggle DX7 Sound</button>
+
   <p>Experience the synthwave boot-up with warm DX7 electric piano. Ambient vibes only. 🛡️🔊</p>
 
   <script>
@@ -86,6 +105,5 @@
   <div style="position: fixed; top: 20px; right: 20px;">
     <a href="https://github.com/yourusername/dx7-chillboot" title="View on GitHub" target="_blank" style="color: #ff69b4; font-size: 1.5rem; text-decoration: none;">ℹ️</a>
   </div>
-
 </body>
 </html>
