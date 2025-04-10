@@ -49,8 +49,144 @@
 
 
 
-<text x="20" y="40" class="text" fill="#ff073a">[ Yamaha DX7 – Voice ROM Loader Control Plane v1.3.2 ]</text>
-<text x="20" y="80" class="text" fill="#ff073a">Initializing chill.env active TLS chillshake:</text>
+
+<text y="80" class="text" fill="#ff073a">
+  <tspan x="20" opacity="0">
+    <set attributeName="opacity" to="1" begin="1.00s" fill="freeze" />I
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.08s" fill="freeze" />n
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.16s" fill="freeze" />i
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.24s" fill="freeze" />t
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.32s" fill="freeze" />i
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.40s" fill="freeze" />a
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.48s" fill="freeze" />l
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.56s" fill="freeze" />i
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.64s" fill="freeze" />z
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.72s" fill="freeze" />i
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.80s" fill="freeze" />n
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.88s" fill="freeze" />g
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="1.96s" fill="freeze" /> 
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.04s" fill="freeze" />c
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.12s" fill="freeze" />h
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.20s" fill="freeze" />i
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.28s" fill="freeze" />l
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.36s" fill="freeze" />l
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.44s" fill="freeze" />.
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.52s" fill="freeze" />e
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.60s" fill="freeze" />n
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.68s" fill="freeze" />v
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.76s" fill="freeze" /> 
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.84s" fill="freeze" />a
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="2.92s" fill="freeze" />c
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.00s" fill="freeze" />t
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.08s" fill="freeze" />i
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.16s" fill="freeze" />v
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.24s" fill="freeze" />e
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.32s" fill="freeze" /> 
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.40s" fill="freeze" />T
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.48s" fill="freeze" />L
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.56s" fill="freeze" />S
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.64s" fill="freeze" /> 
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.72s" fill="freeze" />c
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.80s" fill="freeze" />h
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.88s" fill="freeze" />i
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="3.96s" fill="freeze" />l
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="4.04s" fill="freeze" />l
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="4.12s" fill="freeze" />s
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="4.20s" fill="freeze" />h
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="4.28s" fill="freeze" />a
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="4.36s" fill="freeze" />k
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="4.44s" fill="freeze" />e
+  </tspan>
+  <tspan opacity="0">
+    <set attributeName="opacity" to="1" begin="4.52s" fill="freeze" />:
+  </tspan>
+</text>
 <text x="20" y="130" class="text" fill="#a0522d"><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.0s" fill="freeze"/>></tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.08s" fill="freeze"/>></tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/>></tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.24s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.32s" fill="freeze"/>L</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.4s" fill="freeze"/>o</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.48s" fill="freeze"/>a</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.56s" fill="freeze"/>d</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.64s" fill="freeze"/>i</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.7199999999999998s" fill="freeze"/>n</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.8s" fill="freeze"/>g</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.88s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="2.96s" fill="freeze"/>p</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.04s" fill="freeze"/>a</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.12s" fill="freeze"/>t</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.2s" fill="freeze"/>c</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.2800000000000002s" fill="freeze"/>h</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.3600000000000003s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.44s" fill="freeze"/>b</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.52s" fill="freeze"/>a</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.6s" fill="freeze"/>n</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.6799999999999997s" fill="freeze"/>k</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.76s" fill="freeze"/>:</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.84s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.92s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.0s" fill="freeze"/>I</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.08s" fill="freeze"/>N</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.16s" fill="freeze"/>F</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.24s" fill="freeze"/>R</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.32s" fill="freeze"/>A</tspan><animate attributeName="fill-opacity" values="1;0.5;1" dur="6s" begin="19.5s" repeatCount="indefinite"/></text>
 <text x="20" y="160" class="text" fill="#8b4513"><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/>0</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.58s" fill="freeze"/>1</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.66s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.74s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.82s" fill="freeze"/>C</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.9s" fill="freeze"/>E</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="3.98s" fill="freeze"/>R</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.0600000000000005s" fill="freeze"/>T</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.14s" fill="freeze"/>B</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.22s" fill="freeze"/>O</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.3s" fill="freeze"/>T</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.38s" fill="freeze"/>-</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.46s" fill="freeze"/>8</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.54s" fill="freeze"/>8</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.62s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.7s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.78s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.86s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="4.9399999999999995s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.02s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.1s" fill="freeze"/>✔</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.18s" fill="freeze"/>️</tspan><animate attributeName="fill-opacity" values="1;0.5;1" dur="6s" begin="19.8s" repeatCount="indefinite"/></text>
 <text x="20" y="190" class="text" fill="#ffc0cb"><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.0s" fill="freeze"/>0</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.08s" fill="freeze"/>2</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.16s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.24s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.32s" fill="freeze"/>K</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.4s" fill="freeze"/>8</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.48s" fill="freeze"/>S</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.5600000000000005s" fill="freeze"/>-</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.64s" fill="freeze"/>N</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.72s" fill="freeze"/>O</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.8s" fill="freeze"/>D</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.88s" fill="freeze"/>E</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="5.96s" fill="freeze"/>-</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.04s" fill="freeze"/>B</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.12s" fill="freeze"/>O</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.2s" fill="freeze"/>U</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.28s" fill="freeze"/>N</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.36s" fill="freeze"/>C</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.4399999999999995s" fill="freeze"/>E</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.52s" fill="freeze"/> </tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.6s" fill="freeze"/>✔</tspan><tspan opacity="0"><set attributeName="opacity" to="1" begin="6.68s" fill="freeze"/>️</tspan><animate attributeName="fill-opacity" values="1;0.5;1" dur="6s" begin="20.1s" repeatCount="indefinite"/></text>
