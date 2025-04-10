@@ -1,109 +1,91 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>dx7-chillboot</title>
+  <title>DX7 Audio-Reactive Bootloader</title>
   <style>
     body {
       background-color: #000010;
-      color: #fff;
-      font-family: 'Courier New', monospace;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
+      height: 100vh;
       margin: 0;
-      padding: 20px;
+      font-family: 'Courier New', monospace;
     }
 
-    .svg-container {
+    svg {
       width: 100%;
       max-width: 600px;
-      display: flex;
-      justify-content: center;
-      margin: 0 auto 20px;
-    }
-
-    .svg-container img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    audio {
-      display: none;
+      transition: filter 0.1s linear;
     }
 
     button {
-      margin-top: 10px;
-      background-color: #222;
-      color: #ff69b4;
-      font-family: 'Courier New', monospace;
-      font-size: 1.2rem;
+      margin-top: 20px;
       padding: 10px 20px;
+      font-size: 1.2rem;
+      background: #222;
+      color: #ff69b4;
       border: 2px solid #ff69b4;
       border-radius: 8px;
       cursor: pointer;
-      box-shadow: 0 0 10px #ff69b4;
-    }
-
-    button:hover {
-      background-color: #ff69b4;
-      color: #000010;
-    }
-
-    h1 {
-      font-size: 1.5rem;
-      color: #ff69b4;
-      margin-bottom: 10px;
-      max-width: 100%;
-      text-align: center;
-      word-wrap: break-word;
-    }
-
-    p {
-      color: #bbb;
-      font-size: 0.9rem;
-      max-width: 600px;
-      text-align: center;
     }
   </style>
 </head>
 <body>
-  <h1>[ Hoffaha DX7 Chill Vibe Loader Control Plane v1.3.2 ]</h1>
 
-  <div class="svg-container">
-    <img src="dx7_patch_loader_looped_final.svg" alt="DX7 bootloader animation">
-  </div>
+  <svg viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg">
+    <text x="40" y="37" font-size="18" font-family="monospace" fill="#001f4d">
+      <tspan id="bootText">dreamboot verified</tspan>
+    </text>
+  </svg>
 
   <audio id="dx7audio" loop>
     <source src="loop1_clean_loopable_slowed_30_percent.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 
   <button onclick="toggleAudio()">🎛️ Toggle DX7 Sound</button>
 
-  <p>Experience the synthwave boot-up with warm DX7 electric piano. Ambient vibes only. 🛡️🔊</p>
-
   <script>
     const audio = document.getElementById('dx7audio');
+    const svg = document.querySelector('svg');
+
+    let ctx, analyser, srcNode;
+
     function toggleAudio() {
+      if (!ctx) initAudio();
       if (audio.paused) {
+        ctx.resume();
         audio.play();
       } else {
         audio.pause();
       }
     }
-  </script>
 
-  <footer style="margin-top: 40px; color: #666; font-size: 0.8rem;">
-    a synth boot dream by <a href="https://www.linkedin.com/in/hoffamania/" style="color: #ff69b4;" target="_blank">@hoffamania</a>
-  </footer>
-  <div style="position: fixed; top: 20px; right: 20px;">
-    <a href="https://github.com/yourusername/dx7-chillboot" title="View on GitHub" target="_blank" style="color: #ff69b4; font-size: 1.5rem; text-decoration: none;">ℹ️</a>
-  </div>
+    function initAudio() {
+      ctx = new (window.AudioContext || window.webkitAudioContext)();
+      analyser = ctx.createAnalyser();
+      srcNode = ctx.createMediaElementSource(audio);
+      srcNode.connect(analyser);
+      analyser.connect(ctx.destination);
+      analyser.fftSize = 256;
+
+      const bufferLength = analyser.frequencyBinCount;
+      const dataArray = new Uint8Array(bufferLength);
+
+      function animate() {
+        analyser.getByteFrequencyData(dataArray);
+        const volume = dataArray.reduce((a, b) => a + b, 0) / bufferLength;
+
+        const blur = Math.min(10, volume / 10);
+        svg.style.filter = `drop-shadow(0 0 ${blur}px #ff69b4)`;
+
+        requestAnimationFrame(animate);
+      }
+      animate();
+    }
+  </script>
 </body>
 </html>
