@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dx7-chillboot</title>
+  <style>
+    body {
+      background-color: #000010;
+      color: #fff;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    object {
+      border: 2px solid #333;
+      box-shadow: 0 0 20px #ff69b4;
+      margin-bottom: 20px;
+    }
+    audio {
+      display: none;
+    }
+    button {
+      margin-top: 10px;
+      background-color: #222;
+      color: #ff69b4;
+      font-family: 'Courier New', monospace;
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      border: 2px solid #ff69b4;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff69b4;
+    }
+    button:hover {
+      background-color: #ff69b4;
+      color: #000010;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #ff69b4;
+      margin-bottom: 10px;
+      max-width: 100%;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    p {
+      color: #bbb;
+      font-size: 0.9rem;
+      max-width: 600px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+ <h1>[ Hoffaha DX7 Chill Vibe Loader Control Plane v1.3.2 ]</h1>
+  <object type="image/svg+xml" data="dx7_patch_loader.svg" width="600" height="600">
+    Your browser does not support SVG.
+  </object>
+  <audio id="dx7audio" loop>
+    <source src="loop1_clean_loopable.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <button onclick="toggleAudio()">🎛️ Toggle DX7 Sound</button>
+  <p>Experience the synthwave boot-up with warm DX7 electric piano. Ambient vibes only. 🛡️🔊</p>
+
+  <script>
+    const audio = document.getElementById('dx7audio');
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+  </script>
+
+  <footer style="margin-top: 40px; color: #666; font-size: 0.8rem;">
+    a synth boot dream by <a href="https://www.linkedin.com/in/hoffamania/" style="color: #ff69b4;" target="_blank">@hoffamania</a>
+  </footer>
+  <div style="position: fixed; top: 20px; right: 20px;">
+    <a href="https://github.com/yourusername/dx7-chillboot" title="View on GitHub" target="_blank" style="color: #ff69b4; font-size: 1.5rem; text-decoration: none;">ℹ️</a>
+  </div>
+
+</body>
+</html>
